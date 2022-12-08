@@ -10,8 +10,11 @@ import SwiftUI
 struct MainView: View {
     //comments
     var body: some View {
-        Text("What's Up!")
-            .padding()
+        ZStack{
+            Color.red.ignoresSafeArea(.all)
+            Text("What's Up!")
+                .padding()
+        }
     }
 }
 
