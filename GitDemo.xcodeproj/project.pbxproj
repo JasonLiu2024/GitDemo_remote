@@ -17,6 +17,8 @@
 		B136FFD329418FC2006766AA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B136FFA929418FC2006766AA /* MainView.swift */; };
 		B136FFD429418FC2006766AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B136FFAA29418FC2006766AA /* Assets.xcassets */; };
 		B136FFD529418FC2006766AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B136FFAA29418FC2006766AA /* Assets.xcassets */; };
+		B136FFE529419156006766AA /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B136FFE429419156006766AA /* SecondView.swift */; };
+		B136FFE629419156006766AA /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B136FFE429419156006766AA /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		B136FFC829418FC2006766AA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B136FFCC29418FC2006766AA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		B136FFCE29418FC2006766AA /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		B136FFE429419156006766AA /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				B136FFA829418FC2006766AA /* GitDemoApp.swift */,
 				B136FFA929418FC2006766AA /* MainView.swift */,
+				B136FFE429419156006766AA /* SecondView.swift */,
 				B136FFAA29418FC2006766AA /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B136FFE529419156006766AA /* SecondView.swift in Sources */,
 				B136FFD229418FC2006766AA /* MainView.swift in Sources */,
 				B136FFD029418FC2006766AA /* GitDemoApp.swift in Sources */,
 			);
@@ -308,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B136FFE629419156006766AA /* SecondView.swift in Sources */,
 				B136FFD329418FC2006766AA /* MainView.swift in Sources */,
 				B136FFD129418FC2006766AA /* GitDemoApp.swift in Sources */,
 			);
