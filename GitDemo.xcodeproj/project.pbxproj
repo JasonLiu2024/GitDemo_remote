@@ -13,8 +13,8 @@
 		B136FFCF29418FC2006766AA /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B136FFCE29418FC2006766AA /* Tests_macOSLaunchTests.swift */; };
 		B136FFD029418FC2006766AA /* GitDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B136FFA829418FC2006766AA /* GitDemoApp.swift */; };
 		B136FFD129418FC2006766AA /* GitDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B136FFA829418FC2006766AA /* GitDemoApp.swift */; };
-		B136FFD229418FC2006766AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B136FFA929418FC2006766AA /* ContentView.swift */; };
-		B136FFD329418FC2006766AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B136FFA929418FC2006766AA /* ContentView.swift */; };
+		B136FFD229418FC2006766AA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B136FFA929418FC2006766AA /* MainView.swift */; };
+		B136FFD329418FC2006766AA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B136FFA929418FC2006766AA /* MainView.swift */; };
 		B136FFD429418FC2006766AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B136FFAA29418FC2006766AA /* Assets.xcassets */; };
 		B136FFD529418FC2006766AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B136FFAA29418FC2006766AA /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		B136FFA829418FC2006766AA /* GitDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDemoApp.swift; sourceTree = "<group>"; };
-		B136FFA929418FC2006766AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B136FFA929418FC2006766AA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B136FFAA29418FC2006766AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B136FFAF29418FC2006766AA /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B136FFB529418FC2006766AA /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B136FFA829418FC2006766AA /* GitDemoApp.swift */,
-				B136FFA929418FC2006766AA /* ContentView.swift */,
+				B136FFA929418FC2006766AA /* MainView.swift */,
 				B136FFAA29418FC2006766AA /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B136FFD229418FC2006766AA /* ContentView.swift in Sources */,
+				B136FFD229418FC2006766AA /* MainView.swift in Sources */,
 				B136FFD029418FC2006766AA /* GitDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B136FFD329418FC2006766AA /* ContentView.swift in Sources */,
+				B136FFD329418FC2006766AA /* MainView.swift in Sources */,
 				B136FFD129418FC2006766AA /* GitDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
